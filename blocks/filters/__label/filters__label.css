@@ -1,0 +1,11 @@
+.filters__label {
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #B0B0B0;
+}
+
+.filters__label:has(+ .filters__checkbox:checked) {
+    color: black;
+}

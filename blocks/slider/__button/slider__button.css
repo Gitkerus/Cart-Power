@@ -12,3 +12,8 @@
     display: flex;
     top: calc(50% - 20px);
 }
+
+.slider__button:hover {
+    cursor: pointer;
+    filter: invert(70%) sepia(21%) saturate(14%) hue-rotate(2deg) brightness(98%) contrast(95%);
+}

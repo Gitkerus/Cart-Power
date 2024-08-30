@@ -1,0 +1,5 @@
+.filters__bot {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}

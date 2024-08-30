@@ -1,0 +1,15 @@
+.filters__checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background-image: url("./checkbox.svg");
+    background-position: center;
+}
+
+.filters__checkbox:checked {
+    background-image: url("./checkbox_checked.svg");
+}

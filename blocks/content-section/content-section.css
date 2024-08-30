@@ -1,5 +1,6 @@
 @import url("./__title/content-section__title.css");
 @import url("./__desc/content-section__desc.css");
+@import url("./__selection/content-section__selection.css");
 
 .content-section {
     padding: 80px 0;
