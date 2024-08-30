@@ -1,4 +1,4 @@
-@import url("./normalize.css");
+@import url('./normalize.css');
 @import url('./blocks/header/header.css');
 @import url('./blocks/city-picker/city-picker.css');
 @import url('./blocks/navigaton/navigation.css');
@@ -6,12 +6,12 @@
 @import url('./blocks/phone-number/phone-number.css');
 @import url('./blocks/divider/divider.css');
 @import url('./blocks/test-btn/test-btn.css');
-@import url("./blocks/search/search.css");
-@import url("./blocks/navigation-control/navigation-control.css");
-@import url("./blocks/content-block/content-block.css");
-@import url("./blocks/cutaway/cutaway.css");
-@import url("./blocks/content-section/content-section.css");
-
+@import url('./blocks/search/search.css');
+@import url('./blocks/navigation-control/navigation-control.css');
+@import url('./blocks/content-block/content-block.css');
+@import url('./blocks/cutaway/cutaway.css');
+@import url('./blocks/content-section/content-section.css');
+@import url('./blocks/slider/slider.css');
 
 
 

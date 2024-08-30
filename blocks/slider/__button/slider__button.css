@@ -1,0 +1,14 @@
+@import url("./slider__button_next.css");
+@import url("./slider__button_prev.css");
+
+
+.slider__button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    padding: 0;
+    display: flex;
+    top: calc(50% - 20px);
+}
