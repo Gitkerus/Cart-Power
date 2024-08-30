@@ -1,0 +1,9 @@
+.navigation-control__button_shopping-cart {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.navigation-control__button_shopping-cart:hover {
+    cursor: pointer;
+}

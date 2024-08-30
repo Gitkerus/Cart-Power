@@ -4,4 +4,10 @@
     line-height: 14px;
     border-bottom: 1px solid black; 
     padding-bottom: -5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.phone-number:hover {
+    color: rgba(0, 0, 0, 0.5)
 }

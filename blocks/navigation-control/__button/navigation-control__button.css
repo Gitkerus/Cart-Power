@@ -1,0 +1,10 @@
+@import url("./navigation-control__button_favorite.css");
+@import url("./navigation-control__button_shopping-cart.css");
+
+.navigation-control__button {
+    padding: 0;
+    border: none;
+    display: flex;
+    background: transparent;
+}
+

@@ -1,0 +1,14 @@
+@import url("./__desc/cutaway__desc.css");
+@import url("./__path/cutaway__path.css");
+@import url("./__title/cutaway__title.css");
+@import url("./__navigation/cutaway__navigation.css");
+
+.cutaway {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    background: #C4C4C4;
+    padding: 90px 40px;
+}

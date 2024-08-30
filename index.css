@@ -7,6 +7,11 @@
 @import url('./blocks/divider/divider.css');
 @import url('./blocks/test-btn/test-btn.css');
 @import url("./blocks/search/search.css");
+@import url("./blocks/navigation-control/navigation-control.css");
+@import url("./blocks/content-block/content-block.css");
+@import url("./blocks/cutaway/cutaway.css");
+@import url("./blocks/content-section/content-section.css");
+
 
 
 

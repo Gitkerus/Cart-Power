@@ -1,0 +1,4 @@
+.navigation-control__button_favorite:hover {
+    cursor: pointer;
+    filter: invert(13%) sepia(91%) saturate(7208%) hue-rotate(5deg) brightness(105%) contrast(116%);
+}

@@ -1,0 +1,6 @@
+@import url("./cutaway__path_active.css");
+
+.cutaway__path {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}

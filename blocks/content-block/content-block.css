@@ -1,0 +1,5 @@
+@import url("./content-block_grey.css");
+
+.content-block {
+    padding: 0 calc((100% - 1160px) / 2);
+}

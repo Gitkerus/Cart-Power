@@ -1,0 +1,12 @@
+@import url("./__button/navigation-control__button.css");
+@import url("./__icon/navigation-control__icon.css");
+@import url("./__link/navigation-control__link.css");
+@import url("./__shop-counter/navigation-control__shop-counter.css");
+
+.navigation-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 50px;
+}
