@@ -1,0 +1,10 @@
+@import url('./__element/navigation__element.css');
+@import url('./__element/navigation__element_extended.css');
+@import url('./__element/navigation__element_open.css');
+@import url('./__element/navigation__link.css');
+
+.navigation {
+    display: flex;
+    gap: 20px;
+    align-items: start;
+}

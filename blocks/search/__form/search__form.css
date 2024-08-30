@@ -1,0 +1,9 @@
+.search__form {
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    width: 560px;
+    padding: 13px 20px;
+    display: flex;
+    background-color: #fff;
+}

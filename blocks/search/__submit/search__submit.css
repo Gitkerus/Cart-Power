@@ -1,0 +1,11 @@
+.search__submit {
+    padding: 0;
+    border: none;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.search__submit:hover {
+    cursor: pointer;
+}

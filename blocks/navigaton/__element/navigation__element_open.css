@@ -1,0 +1,7 @@
+.navigation__element_open > a {
+    color: #808080;
+}
+
+.navigation__element_open > div.navigation-sub-menu {
+    display: flex !important;
+}

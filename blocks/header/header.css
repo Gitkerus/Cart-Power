@@ -1,0 +1,7 @@
+@import url('./__top/header__top.css');
+@import url('./__bot/header__bot.css');
+
+.header {
+    padding: 16px calc((100% - 1140px) / 2) 23px;
+    background: #EEEEEE;
+}

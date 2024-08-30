@@ -1,0 +1,13 @@
+.city-picker {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+}
+
+.city-picker:hover {
+    color: #808080;
+    cursor: pointer;
+}

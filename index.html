@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="city-picker"><img src="./blocks/city-picker/mapPointer.svg" alt="mapPointer">Нижний Новгород</div>
+            <div class="navigation">
+                <div class="navigation__element">
+                    <a class="navigation__link" href="">Как заказать</a>
+                </div>
+                <div class="navigation__element">
+                    <a class="navigation__link" href="">Доставка и оплата</a>
+                </div>
+                <div class="navigation__element">
+                    <a class="navigation__link" href="">Кредит и рассрочка</a>
+                </div>
+                <div class="navigation__element">
+                    <a class="navigation__link" href="">Сборка</a>
+                </div>
+                <div class="navigation__element navigation__element_extended">
+                    <a class="navigation__link">
+                        Частые вопросы <img src="./blocks/navigaton/__element/arrowDown.svg" alt="arrowDown">
+                    </a>                    
+                    <div class="navigation-sub-menu">
+                        <a class="navigation-sub-menu__link" href="">О нас</a>
+                        <a class="navigation-sub-menu__link" href="">Отзывы</a>
+                        <a class="navigation-sub-menu__link" href="">Гарантии</a>
+                    </div>
+                </div>
+            </div>
+            <div class="phone-number">
+                +7 (347) 292-62-52
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="header__bot">
+            <button class="test-btn">
+                <span class="test-btn__title">TEST</span>
+                <span class="test-btn__desc">Сеть мебельных магазинов</span>
+            </button>
+            <div class="search">
+                <button class="search__btn"><img src="./blocks/search/__btn/burger-cut.svg" alt="burger-cut">Каталог</button>
+                <form class="search__form">
+                    <input type="text" class="search__input" placeholder="Например, двухъярусная кровать">
+                    <button type="submit" class="search__submit"><img src="./blocks/search/__submit/search-btn.svg" alt=""></button>
+                </form>
+            </div>
+        </div>
+    </header>
+</body>
+<script src="./blocks/navigaton/__element/navigation__element.js"></script>
+</html>
