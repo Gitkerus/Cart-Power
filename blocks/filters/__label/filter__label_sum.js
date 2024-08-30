@@ -10,7 +10,7 @@ const handleCheckBoxClick = (e) => {
         sum -= Number(e.target.getAttribute("price"));
     }
     const convertSum = sum.toString().replace(/,/g, "").replace(/\B(?=(\d{3})+(?!\d))/g, " ");
-    totalSum.innerText = `${convertSum}₽`;
+    totalSum.innerText = `${convertSum} ₽`;
 }
 
 filters__elements.forEach((element) => {
