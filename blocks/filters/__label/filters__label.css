@@ -1,3 +1,5 @@
+@import url("./filters__label_sum.css");
+
 .filters__label {
     width: 360px;
     display: flex;
