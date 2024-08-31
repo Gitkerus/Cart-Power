@@ -1,0 +1,26 @@
+.product-card__price_discount {
+    font-size: 13px !important;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: -7px !important;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 0;
+    width: fit-content;
+    position: relative;
+}
+
+.product-card__price_discount::before {
+    width: 110%;
+    content: '';
+    position: absolute;
+    left: -5%;
+    top: 50%;
+}
+
+.product-card__price_discount::before {
+    border-bottom: 1px solid #000;
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+}    
+

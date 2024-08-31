@@ -1,0 +1,11 @@
+.product-card_discount-icon {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 6px 10px;
+}

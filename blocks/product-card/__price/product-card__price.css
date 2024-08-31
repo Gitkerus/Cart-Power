@@ -1,3 +1,5 @@
+@import url("./product-card__price_discount.css");
+
 .product-card__price {
     font-weight: 700;
     font-size: 20px;

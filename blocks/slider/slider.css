@@ -5,6 +5,8 @@
 @import url("./__button-img/slider__button-img.css");
 @import url("./slider_gallery.css");
 @import url("./slider_cards.css");
+@import url("./slider_cards-discount.css");
+
 
 .slider {
     height: auto;

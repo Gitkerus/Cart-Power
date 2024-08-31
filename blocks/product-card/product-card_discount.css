@@ -1,0 +1,6 @@
+.product-card_discount {
+    position: relative;
+}
+.product-card_discount > .product-card__bot {
+    background-color: #E0E0E0 !important;
+}

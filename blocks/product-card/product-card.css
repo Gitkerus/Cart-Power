@@ -5,8 +5,13 @@
 @import url("./__star/product-card__star.css");
 @import url("./__title/product-card__title.css");
 @import url("./__price/product-card__price.css");
+@import url("./__img/product-card__img.css");
+@import url("./__discount-icon/product-card__discount-icon.css");
+@import url("./product-card_discount.css");
 
 .product-card {
     border-radius: 6px;
     margin: 0 10px;
+    width: 216px;
+    overflow: hidden;
 }

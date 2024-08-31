@@ -1,5 +1,4 @@
 .product-card__top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    height: 216px;
 }
