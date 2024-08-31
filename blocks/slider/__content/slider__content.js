@@ -3,8 +3,8 @@ $(document).on('ready', function() {
         variableWidth: true,
         adaptiveHeight: true,
         touchThreshold: 100,
-        prevArrow: $('.slider__button_prev'),
-        nextArrow: $('.slider__button_next')
+        prevArrow: $('#gallery__button_prev'),
+        nextArrow: $('#gallery__button_next')
     });
     
   });

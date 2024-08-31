@@ -1,0 +1,12 @@
+@import url("./__star/product-card__star.css");
+@import url("./__bot/product-card__bot.css");
+@import url("./__top/product-card__top.css");
+@import url("./__raiting/product-card__raiting.css");
+@import url("./__star/product-card__star.css");
+@import url("./__title/product-card__title.css");
+@import url("./__price/product-card__price.css");
+
+.product-card {
+    border-radius: 6px;
+    margin: 0 10px;
+}

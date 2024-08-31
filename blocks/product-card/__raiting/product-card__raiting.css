@@ -1,0 +1,4 @@
+.product-card__raiting {
+    display: flex;
+    gap: 3px;
+}

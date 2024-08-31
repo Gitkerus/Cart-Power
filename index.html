@@ -95,8 +95,8 @@
                 Фотографии и видео
             </span>
             <div class="slider slider_gallery">
-                <button class="slider__button slider__button_ slider__button_next"><img src="./blocks/slider/__button/arrow.svg" alt="" /></button>
-                <button class="slider__button slider__button_prev"><img src="./blocks/slider/__button/arrow.svg" alt="" /></button>
+                <button class="slider__button slider__button_next" id="gallery__button_next"><img class="slider__button-img" src="./blocks/slider/__button/arrow.svg" alt="arrow" /></button>
+                <button class="slider__button slider__button_prev" id="gallery__button_prev"><img class="slider__button-img" src="./blocks/slider/__button/arrow.svg" alt="arrow" /></button>
                 <div class="slider__content">
                     <div  class="slider__block">
                         <img src="./blocks/slider/__block/emptySlide.png" alt="emptySlide">
@@ -129,59 +129,59 @@
                 Подборка один
             </span>
             <div class="content-section__selection">
-                <div class="filters">
+                <form class="filters">
                     <div class="filters__top">
-                        <form class="filters__form">
-                            <div class="filters__element">
+                        <ul class="filters__list">
+                            <li class="filters__element">
                                 <label class="filters__label" for="filter__element_1">
                                     <span class="filters__product">Кровать «Триумф» 160</span>
                                     <span class="filters__price">8 000 ₽</span>
                                 </label>
                                 <input class="filters__checkbox" type="checkbox" name="element_1" id="filter__element_1" price=8000>
-                            </div>
-                            <div class="filters__element">
+                            </li>
+                            <li class="filters__element">
                                 <label class="filters__label" for="filter__element_2">
                                     <span class="filters__product">Матрас средний</span>
                                     <span class="filters__price">10 000 ₽</span>
                                 </label>
                                 <input class="filters__checkbox" type="checkbox" name="element_2" id="filter__element_2" price=10000>
-                            </div>
-                            <div class="filters__element">
+                            </li>
+                            <li class="filters__element">
                                 <label class="filters__label" for="filter__element_3">
                                     <span class="filters__product">Тумба прикроватная</span>
                                     <span class="filters__price">2 000 ₽</span>
                                 </label>
                                 <input class="filters__checkbox" type="checkbox" name="element_3" id="filter__element_3" price=2000>
-                            </div>
-                            <div class="filters__element">
+                            </li>
+                            <li class="filters__element">
                                 <label class="filters__label" for="filter__element_4">
                                     <span class="filters__product">Шкаф 4-дверный</span>
                                     <span class="filters__price" >10 000 ₽</span>
                                 </label>
                                 <input class="filters__checkbox" type="checkbox" name="element_4" id="filter__element_4" price=10000>
-                            </div>
-                            <div class="filters__element">
+                            </li>
+                            <li class="filters__element">
                                 <label class="filters__label" for="filter__element_5">
                                     <span class="filters__product">Комод</span>
                                     <span class="filters__price">2 000 ₽</span>
                                 </label>
                                 <input class="filters__checkbox" type="checkbox" name="element_5" id="filter__element_5" price=2000>
-                            </div>
-                            <div class="filters__element">
+                            </li>
+                            <li class="filters__element">
                                 <label class="filters__label" for="filter__element_6">
                                     <span class="filters__product">Зеркало</span>
                                     <span class="filters__price">2 000 ₽</span>
                                 </label>
                                 <input class="filters__checkbox" type="checkbox" name="element_6" id="filter__element_6" price=2000>
-                            </div>
-                            <div class="filters__element">
+                            </li>
+                            <li class="filters__element">
                                 <label class="filters__label" for="filter__element_7">
                                     <span class="filters__product">Пуф</span>
                                     <span class="filters__price">2 000 ₽</span>
                                 </label>
                                 <input class="filters__checkbox" type="checkbox" name="element_7" id="filter__element_7" price=2000>
-                            </div>
-                        </form>
+                            </li>
+                        </ul>
                     </div>
                     <div class="filters__bot">
                         <div class="divider divider_small"></div>
@@ -189,19 +189,111 @@
                             <span class="filters__product">Итого</span>
                             <span class="filters__price">0 ₽</span>
                         </div>
-                        <button class="shop-button">Добавить товары в корзину <img src="./blocks/shop-button/plus.svg" alt="plus"></button>
+                        <button class="shop-button" type="submit">Добавить товары в корзину <img src="./blocks/shop-button/plus.svg" alt="plus"></button>
+                    </div>
+                </form>
+                <div class="slider slider_cards">
+                    <button class="slider__button slider__button_small slider__button_next" id="cards__button_next"><img class="slider__button-img" src="./blocks/slider/__button/arrow.svg" alt="arrow" /></button>
+                    <button class="slider__button slider__button_small slider__button_prev" id="cards__button_prev"><img class="slider__button-img" src="./blocks/slider/__button/arrow.svg" alt="arrow" /></button>
+                    <div class="slider__cards">
+                        <div class="product-card">
+                                <div class="product-card__top">
+                                    <img class="product-card__img" src="./blocks/product-card/__top/blank.png" alt="productImg">
+                                </div>
+                                <div class="product-card__bot">
+                                    <div class="product-card__raiting" raiting="4.5">
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-half.svg" alt="star-fill">
+                                    </div>
+                                    <span class="product-card__title">Кровать «Триумф»</span>
+                                    <span class="product-card__price">8 000 ₽</span>
+                                    <button class="shop-button" type="submit">В корзину <img src="./blocks/shop-button/plus.svg" alt="plus"></button>
+                                </div>
+                        </div>
+                        <div class="product-card">
+                                <div class="product-card__top">
+                                    <img class="product-card__img" src="./blocks/product-card/__top/blank.png" alt="productImg">
+                                </div>
+                                <div class="product-card__bot">
+                                    <div class="product-card__raiting" raiting="4.5">
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-half.svg" alt="star-fill">
+                                    </div>
+                                    <span class="product-card__title">Кровать «Триумф»</span>
+                                    <span class="product-card__price">8 000 ₽</span>
+                                    <button class="shop-button" type="submit">В корзину <img src="./blocks/shop-button/plus.svg" alt="plus"></button>
+                                </div>
+                        </div>
+                        <div class="product-card">
+                                <div class="product-card__top">
+                                    <img class="product-card__img" src="./blocks/product-card/__top/blank.png" alt="productImg">
+                                </div>
+                                <div class="product-card__bot">
+                                    <div class="product-card__raiting" raiting="4.5">
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-half.svg" alt="star-fill">
+                                    </div>
+                                    <span class="product-card__title">Кровать «Триумф»</span>
+                                    <span class="product-card__price">8 000 ₽</span>
+                                    <button class="shop-button" type="submit">В корзину <img src="./blocks/shop-button/plus.svg" alt="plus"></button>
+                                </div>
+                        </div>
+                        <div class="product-card">
+                                <div class="product-card__top">
+                                    <img class="product-card__img" src="./blocks/product-card/__top/blank.png" alt="productImg">
+                                </div>
+                                <div class="product-card__bot">
+                                    <div class="product-card__raiting" raiting="4.5">
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-half.svg" alt="star-fill">
+                                    </div>
+                                    <span class="product-card__title">Кровать «Триумф»</span>
+                                    <span class="product-card__price">8 000 ₽</span>
+                                    <button class="shop-button" type="submit">В корзину <img src="./blocks/shop-button/plus.svg" alt="plus"></button>
+                                </div>
+                        </div>
+                        <div class="product-card">
+                                <div class="product-card__top">
+                                    <img class="product-card__img" src="./blocks/product-card/__top/blank.png" alt="productImg">
+                                </div>
+                                <div class="product-card__bot">
+                                    <div class="product-card__raiting" raiting="4.5">
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-fill.svg" alt="star-fill" >
+                                        <img class="product-card__star" src="./blocks/product-card/__star/star-half.svg" alt="star-fill">
+                                    </div>
+                                    <span class="product-card__title">Кровать «Триумф»</span>
+                                    <span class="product-card__price">8 000 ₽</span>
+                                    <button class="shop-button" type="submit">В корзину <img src="./blocks/shop-button/plus.svg" alt="plus"></button>
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </body>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="./slick/slick.min.js"></script>
 <script src="./blocks/navigaton/__element/navigation__element.js"></script>
-<script src="./blocks/slider/slider.js"></script>
+<script src="./blocks/slider/__content/slider__content.js"></script>
+<script src="./blocks/slider/__cards/slider__cards.js"></script>
 <script src="./blocks/filters/__label/filter__label_sum.js"></script>
-
 </html>

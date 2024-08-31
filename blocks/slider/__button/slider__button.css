@@ -1,5 +1,6 @@
 @import url("./slider__button_next.css");
 @import url("./slider__button_prev.css");
+@import url("./slider__button_small.css");
 
 
 .slider__button {
@@ -11,6 +12,10 @@
     padding: 0;
     display: flex;
     top: calc(50% - 20px);
+}
+
+.slider__button.slider__button_small {
+    top: calc(50% - 16px) !important;
 }
 
 .slider__button:hover {

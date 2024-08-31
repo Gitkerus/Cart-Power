@@ -1,3 +1,8 @@
 .slider__block {
-    margin: 0 20px;
+    margin: 0 10px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    min-height: 170px !important;
+    width: 260px;
 }

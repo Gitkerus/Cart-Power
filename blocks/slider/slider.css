@@ -1,11 +1,12 @@
 @import url("./__block/slider__block.css");
-@import url("./slider_gallery.css");
 @import url("./__button/slider__button.css");
 @import url("./__content/slider__content.css");
+@import url("./__cards/slider__cards.css");
+@import url("./__button-img/slider__button-img.css");
+@import url("./slider_gallery.css");
+@import url("./slider_cards.css");
 
 .slider {
-    margin-top: 30px;
-    width: 100%;
     height: auto;
     position: relative;
 }

@@ -1,0 +1,7 @@
+.product-card__bot {
+    background-color: #fff;
+    padding: 15px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

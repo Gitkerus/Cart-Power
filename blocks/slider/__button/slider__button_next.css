@@ -1,3 +1,7 @@
 .slider__button_next {
     right: -50px;
 }
+
+.slider__button_next.slider__button_small {
+    right: -40px !important;
+}

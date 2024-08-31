@@ -2,3 +2,7 @@
     rotate: -180deg;
     left: -50px;
 }
+
+.slider__button_prev.slider__button_small {
+    left: -40px !important;
+}
