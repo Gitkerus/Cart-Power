@@ -15,9 +15,10 @@
 @import url('./blocks/shop-button/shop-button.css');
 @import url('./blocks/filters/filters.css');
 @import url('./blocks/product-card/product-card.css');
-
+@import url('./blocks/footer/footer.css');
+@import url('./blocks/subscribe-form/subscribe-form.css');
 
 
 * {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
 }

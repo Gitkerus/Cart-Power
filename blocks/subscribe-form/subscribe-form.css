@@ -1,0 +1,11 @@
+@import url("./__input/subscribe-form__input.css");
+@import url("./__inputs-group/subscribe-form__inputs-group.css");
+@import url("./__submit-btn/subscribe-form__submit-btn.css");
+@import url("./__input-icon/subscribe-form__input-icon.css");
+@import url("./__input-field/subscribe-form__input-field.css");
+
+.subscribe-form {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
