@@ -1,5 +1,12 @@
 .header__bot {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 20px 0px;
+}
+
+@media (max-width: 1280px) {
+    .header__bot {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
 }

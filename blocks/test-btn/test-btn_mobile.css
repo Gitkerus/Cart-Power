@@ -1,0 +1,9 @@
+.test-btn_mobile {
+    display: none !important;
+}
+
+@media (max-width: 800px) {
+    .test-btn_mobile {
+        display: flex !important;
+    }
+}

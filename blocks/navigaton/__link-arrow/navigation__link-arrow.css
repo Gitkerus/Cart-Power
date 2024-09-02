@@ -1,0 +1,4 @@
+.navigation__link-arrow {
+    order: -1;
+    transform: rotate(90deg);
+}

@@ -5,11 +5,18 @@
     font-weight: 400;
     line-height: 19px;
     flex-grow: 1;
+    width: calc(100% - 19px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
-.search__input::placeholder {
+
+
+.search__input::placeholder:focus {
     color: rgba(0, 0, 0, 0.4);
 }
+
 
 .search__input:focus-visible, .search__input:focus {
     border: none;

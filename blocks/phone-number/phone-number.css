@@ -6,8 +6,23 @@
     padding-bottom: -5px;
     text-decoration: none;
     color: #000;
+    display: block;
 }
 
 .phone-number:hover {
     color: rgba(0, 0, 0, 0.5)
+}
+
+@media (max-width:1280px){
+    .phone-number {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        border: none;
+        background-image: url("./phone.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 24px;
+        width: 24px;
+    }
 }

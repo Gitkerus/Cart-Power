@@ -16,3 +16,11 @@
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+
+@media (max-width: 800px) {
+    .search__btn {
+        font-size: 0;
+        gap: 0;
+    }
+}

@@ -13,10 +13,15 @@
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 <body>
-    <!-- <header class="header">
+    <header class="header">
         <div class="header__top">
-            <div class="city-picker"><img src="./blocks/city-picker/mapPointer.svg" alt="mapPointer">Нижний Новгород</div>
-            <div class="navigation">
+            <div class="header__top-left">
+                <a class="test-btn test-btn_mobile">
+                    <span class="test-btn__title">TEST</span>
+                </a>
+                <div class="city-picker"><img src="./blocks/city-picker/mapPointer.svg" alt="mapPointer">Нижний Новгород</div>
+            </div>
+            <div class="navigation" id="headerNavigation">
                 <div class="navigation__element">
                     <a class="navigation__link" href="">Как заказать</a>
                 </div>
@@ -31,7 +36,7 @@
                 </div>
                 <div class="navigation__element navigation__element_extended">
                     <a class="navigation__link">
-                        Частые вопросы <img src="./blocks/navigaton/__element/arrowDown.svg" alt="arrowDown">
+                        Частые вопросы <img class="navigation__link-arrow" src="./blocks/navigaton/__element/arrowDown.svg" alt="arrowDown">
                     </a>                    
                     <div class="navigation__sub-menu">
                         <a class="navigation__sub-menu-link" href="">О нас</a>
@@ -40,16 +45,19 @@
                     </div>
                 </div>
             </div>
-            <a class="phone-number" href="tel:+73472926252">
-                +7 (347) 292-62-52
-            </a>
+            <div class="header__top-right">
+                <a class="phone-number" href="tel:+73472926252">
+                    +7 (347) 292-62-52
+                </a>
+                <button class="mobile-menu" id="mobileMenu"></button>
+            </div>
         </div>
         <div class="divider"></div>
         <div class="header__bot">
-            <button class="test-btn">
+            <a class="test-btn">
                 <span class="test-btn__title">TEST</span>
                 <span class="test-btn__desc">Сеть мебельных магазинов</span>
-            </button>
+            </a>
             <div class="search">
                 <button class="search__btn"><img src="./blocks/search/__btn/burger-cut.svg" alt="burger-cut">Каталог</button>
                 <form class="search__form">
@@ -75,7 +83,7 @@
                 </button>
             </div>
         </div>
-    </header> -->
+    </header>
     <div class="content-block">
         <div class="cutaway">
             <div class="cutaway__navigation">
@@ -502,4 +510,5 @@
 <script src="./blocks/slider/__cards/slider__cards.js"></script>
 <script src="./blocks/slider/__cards-discount/slider__cards-discount.js"></script>
 <script src="./blocks/filters/__label/filter__label_sum.js"></script>
+<script src="./blocks/mobile-menu/mobile-menu.js"></script>
 </html>

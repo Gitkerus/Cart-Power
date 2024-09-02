@@ -18,6 +18,7 @@
 @import url('./blocks/subscribe-form/subscribe-form.css');
 @import url('./blocks/navigation-links/navigation-links.css');
 @import url('./blocks/contacts/contacts.css');
+@import url('./blocks/mobile-menu/mobile-menu.css');
 
 * {
     font-family: "Roboto", sans-serif;

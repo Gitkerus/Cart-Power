@@ -1,0 +1,5 @@
+.header__top-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}

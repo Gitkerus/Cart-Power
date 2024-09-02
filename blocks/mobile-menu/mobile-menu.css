@@ -1,0 +1,17 @@
+@import url("./mobile-menu_active.css");
+
+.mobile-menu {
+    display: none;
+}
+
+@media (max-width: 1280px) {
+    .mobile-menu {
+        display: block;
+        width: 30px;
+        height: 30px;
+        border: none;
+        padding: 0;
+        background-image: url("./burger-menu.svg");
+        background-size: cover;
+    }
+}
