@@ -1,7 +1,7 @@
-.navigation__element_open > a {
-    color: #808080;
+.navigation__element_open > .navigation__link {
+    color: #808080 !important;
 }
 
-.navigation__element_open > div.navigation-sub-menu {
+.navigation__element_open > div.navigation__sub-menu {
     display: flex !important;
 }

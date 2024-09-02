@@ -1,4 +1,6 @@
 .product-card__top {
     position: relative;
     height: 216px;
+    width: 100%;
+    display: flex;
 }

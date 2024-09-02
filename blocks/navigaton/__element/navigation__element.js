@@ -2,14 +2,14 @@ const allExtentedLinks = document.querySelectorAll(".navigation__element_extende
 const allExtendedLinksA = document.querySelectorAll(".navigation__element_extended > a");
 
 const handleClick = (e) => {
-    const parentContainer = e.target.parentElement;
-    if(parentContainer.classList.contains("navigation__element_open")) {
-        parentContainer.classList.remove("navigation__element_open")
+    const elementContainer = e.target.closest(".navigation__element_extended");
+    if(elementContainer.classList.contains("navigation__element_open")) {
+        elementContainer.classList.remove("navigation__element_open")
     } else {
     allExtentedLinks.forEach((element) => {
         element.classList.remove("navigation__element_open");
     });
-    parentContainer.classList.toggle("navigation__element_open")
+    elementContainer.classList.toggle("navigation__element_open")
     }
 };
 

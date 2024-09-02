@@ -1,5 +1,11 @@
 .filters__element {
     display: flex;
     gap: 32px;
+    align-items: center;
 }
 
+@media (max-width: 600px) {
+    .filters__element {
+        gap: 10px;
+    }
+}

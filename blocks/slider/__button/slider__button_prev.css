@@ -6,3 +6,9 @@
 .slider__button_prev.slider__button_small {
     left: -40px !important;
 }
+
+@media (max-width: 1280px){
+    .slider__button_prev, .slider__button_prev.slider__button_small {
+        left: 0 !important;
+    }
+}

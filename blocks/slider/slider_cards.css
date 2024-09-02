@@ -1,3 +1,9 @@
 .slider_cards {
     width: calc(100% - 471px);
 }
+
+@media (max-width: 800px) {
+    .slider_cards {
+        width: 100%;
+    }
+}

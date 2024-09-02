@@ -6,3 +6,7 @@
 @import url("./__label/filters__label.css");
 @import url("./__element/filters__element.css");
 @import url("./__bot/filters__bot.css");
+
+.filters {
+    width: 100%;
+}

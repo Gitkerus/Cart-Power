@@ -1,4 +1,4 @@
-.navigation-sub-menu {
+.navigation__sub-menu {
     position: absolute;
     top: 20px;
     left: 0px;
@@ -9,7 +9,6 @@
     box-sizing: border-box;
     z-index: 100;
     border-radius: 2px;
-    display: flex;
     flex-direction: column;
     gap: 10px;
     display: none;

@@ -5,7 +5,18 @@ $(document).on('ready', function() {
         touchThreshold: 100,
         slidesToShow: 5,
         prevArrow: $('#cards-discount__button_prev'),
-        nextArrow: $('#cards-discount__button_next')
+        nextArrow: $('#cards-discount__button_next'),
+        responsive: [
+            {
+                breakpoint: 800,
+                settings: { 
+                    slidesToShow: 1,
+                    variableWidth: false,
+                }
+            },
+        ]
     });
+
+
     
   });

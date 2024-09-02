@@ -4,3 +4,10 @@
     justify-content: space-between;
     gap: 55px;
 }
+
+@media (max-width: 800px) {
+    .content-section__selection {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

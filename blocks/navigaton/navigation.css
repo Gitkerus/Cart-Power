@@ -1,7 +1,7 @@
 @import url('./__element/navigation__element.css');
-@import url('./__element/navigation__element_extended.css');
-@import url('./__element/navigation__element_open.css');
-@import url('./__element/navigation__link.css');
+@import url('./__link/navigation__link.css');
+@import url('./__sub-menu/navigaton__sub-menu.css');
+@import url('./__sub-menu-link/navigation__sub-menu-link.css');
 
 .navigation {
     display: flex;

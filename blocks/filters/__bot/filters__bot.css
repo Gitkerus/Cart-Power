@@ -1,5 +1,12 @@
 .filters__bot {
-    width: 360px;
+    width: calc(100% - 58px);
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 1280px) {
+    .filters__bot {
+        width: calc(100% - 34px);
+
+    }    
 }

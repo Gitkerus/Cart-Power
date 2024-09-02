@@ -1,10 +1,11 @@
 @import url("./filters__label_sum.css");
 
 .filters__label {
-    width: 360px;
+    width: calc(100% - 34px);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
     color: #B0B0B0;
 }
 

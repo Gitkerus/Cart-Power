@@ -22,3 +22,13 @@
     cursor: pointer;
     filter: invert(70%) sepia(21%) saturate(14%) hue-rotate(2deg) brightness(98%) contrast(95%);
 }
+
+@media (max-width: 1280px){
+    .slider__button, .slider__button.slider__button_small {
+        top: calc(100% + 20px) !important;
+    }
+
+    .slider__button.slider__button_small {
+        top: calc(100% + 16px) !important;
+    }
+}
