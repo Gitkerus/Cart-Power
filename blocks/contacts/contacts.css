@@ -1,0 +1,10 @@
+@import url("./__social-link/contacts__social-link.css");
+@import url("./__social-media-link/contacts__social-media-link.css");
+@import url("./__social-media/contacts__social-media.css");
+@import url("./__social/contacts__social.css");
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

@@ -1,0 +1,9 @@
+@import url("./__element/navigation-links__element.css");
+
+.navigation-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8px 180px;
+    height: 165px;
+}

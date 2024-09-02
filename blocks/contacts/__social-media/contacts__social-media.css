@@ -1,0 +1,6 @@
+.contacts__social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: end;
+}
