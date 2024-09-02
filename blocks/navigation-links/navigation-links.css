@@ -7,3 +7,10 @@
     gap: 8px 180px;
     height: 165px;
 }
+
+@media (max-width: 800px) {
+    .navigation-links {
+        flex-direction: column;
+        height: auto;
+    }
+}

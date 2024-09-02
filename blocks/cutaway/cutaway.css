@@ -12,3 +12,9 @@
     background: #C4C4C4;
     padding: 90px 40px;
 }
+
+@media (max-width: 1280px) {
+    .cutaway {
+        padding: 45px 20px;
+    }
+}

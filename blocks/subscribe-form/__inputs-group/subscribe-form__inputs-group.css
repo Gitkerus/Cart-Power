@@ -3,3 +3,24 @@
     gap: 92px;
     align-items: end;
 }
+
+@media (max-width: 1280px) {
+    .subscribe-form__inputs-group {
+        width: calc(100% - 240px);
+        gap: 0;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1024px) {
+    .subscribe-form__inputs-group {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .subscribe-form__inputs-group {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

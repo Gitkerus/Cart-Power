@@ -3,3 +3,9 @@
     align-items: center;
     border-bottom: 1px solid #F9F9F9;
 }
+
+@media (max-width: 800px) {
+    .subscribe-form__input {
+        width: 100%;
+    }
+}
