@@ -1,4 +1,6 @@
-.navigation__link-arrow {
-    order: -1;
-    transform: rotate(90deg);
+@media (max-width: 800px) {
+    .navigation__link-arrow {
+        order: -1;
+        transform: rotate(90deg);
+    }
 }
