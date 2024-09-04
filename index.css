@@ -23,3 +23,9 @@
 * {
     font-family: "Roboto", sans-serif;
 }
+
+@media (max-width: 800px) {
+    .slick-list {
+        margin: 0 -10px !important;
+    }
+}
