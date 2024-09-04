@@ -1,7 +1,11 @@
+@import url("./subscribe-form__input_error.css");
+@import url("./subscribe-form__input_ok.css");
+
 .subscribe-form__input {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #F9F9F9;
+    position: relative;
 }
 
 @media (max-width: 800px) {

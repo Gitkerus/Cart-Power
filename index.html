@@ -455,19 +455,24 @@
         <div class="footer__desc">
             Оставьте заявку и мы пришлем вам ссылку
         </div>
-        <form class="subscribe-form">
+        <form class="subscribe-form" id="footerForm">
             <div class="subscribe-form__inputs-group">
                 <div class="subscribe-form__input">
                     <img class="subscribe-form__input-icon" src="./blocks/subscribe-form/__input-icon/login.svg" alt="subscribe-form__input-icon_name">
-                    <input class="subscribe-form__input-field" type="text" placeholder="Ваше имя" required>
+                    <input class="subscribe-form__input-field" id="footerInputName" name="name" type="text" placeholder="Ваше имя">
+                    <div class="subscribe-form__input-msg"></div>
                 </div>
                 <div class="subscribe-form__input">
                     <img class="subscribe-form__input-icon" src="./blocks/subscribe-form/__input-icon/phone.svg" alt="subscribe-form__input-icon_phone">
-                    <input class="subscribe-form__input-field" type="tel" placeholder="Ваш телефон" required>
+                    <input class="subscribe-form__input-field" id="footerInputPhone" name="phone" type="tel"  placeholder="Ваш телефон">
+                    <div class="subscribe-form__input-msg"></div>
+
                 </div>
                 <div class="subscribe-form__input">
                     <img class="subscribe-form__input-icon" src="./blocks/subscribe-form/__input-icon/mail.svg" alt="subscribe-form__input-icon_mail">
-                    <input class="subscribe-form__input-field" type="email" placeholder="Ваша почта" required>
+                    <input class="subscribe-form__input-field" id="footerInputMail" name="mail" type="email" placeholder="Ваша почта">
+                    <div class="subscribe-form__input-msg"></div>
+
                 </div>
             </div>
             <button class="subscribe-form__submit-btn" type="submit">Подписаться</button>
@@ -501,6 +506,8 @@
     </footer>
 </div>
 </body>
+<script src="https://unpkg.com/imask"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -511,4 +518,5 @@
 <script src="./blocks/slider/__cards-discount/slider__cards-discount.js"></script>
 <script src="./blocks/filters/__label/filter__label_sum.js"></script>
 <script src="./blocks/mobile-menu/mobile-menu.js"></script>
+<script src="./blocks/subscribe-form/subscribe-form.js"></script>
 </html>

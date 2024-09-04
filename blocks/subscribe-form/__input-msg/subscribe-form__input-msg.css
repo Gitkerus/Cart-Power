@@ -1,0 +1,8 @@
+.subscribe-form__input-msg {
+    position: absolute;
+    padding: 0;
+    color: red;
+    font-size: 12px;
+    line-height: 14px;
+    top: 110%;
+}

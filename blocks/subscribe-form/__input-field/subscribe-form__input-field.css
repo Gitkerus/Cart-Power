@@ -4,4 +4,15 @@
     padding: 18px 10px;
     outline: none;
     color: #fff;
+    width: 100%;
 }
+
+/* Костыль для закрытия autofill стилей в браузерах */
+.subscribe-form__input-field:-webkit-autofill,
+.subscribe-form__input-field:-webkit-autofill:hover,
+.subscribe-form__input-field:-webkit-autofill:focus,
+.subscribe-form__input-field:-webkit-autofill:active {
+    -webkit-transition: background-color 9999s ease-in-out 0s;
+    -webkit-text-fill-color: white !important;
+}
+
